@@ -1,0 +1,271 @@
+    1  ls .dockerenv bin boot dev etc home lib lib64 media mnt opt proc root run sbin srv sys tmp usr var -ls -オプション パス
+    2  ls /
+    3  ls /usr
+    4  #ls .dockerenv bin boot dev etc home lib lib64 media mnt opt proc root run sbin srv sys tmp usr var -
+    5  \! . \: \[ \[\[ ]] add-shell agetty alias apt apt-cache apt-cdrom apt-config apt-get apt-mark arch awk b2sum base32 base64 basename basenc bash bashbug bg bind blkdiscard blkid blkzone blockdev break builtin caller captoinfo case cat cd chage chcon chcpu chfn chgpasswd chgrp chmem chmod choom chown chpasswd chroot chrt chsh cksum clear clear_console cmp comm command compgen complete compopt continue coproc cp csplit cut dash date dd deb-systemd-helper deb-systemd-invoke debconf debconf-apt-progress debconf-communicate debconf-copydb debconf-escape debconf-set-selections debconf-show declare df diff diff3 dir dircolors dirname dirs disown dmesg dnsdomainname do domainname done dpkg dpkg-deb dpkg-divert dpkg-maintscript-helper dpkg-preconfigure dpkg-query dpkg-realpath dpkg-reconfigure dpkg-split dpkg-statoverride dpkg-trigger du echo egrep elif else enable env esac eval exec exit expand expiry export expr factor faillock fallocate false fc fg fgrep fi find findfs findmnt flock fmt fold for fsck fsfreeze fstab-decode fstrim function getconf getent getopt getopts getty gpasswd grep groupadd groupdel groupmod groups grpck grpconv grpunconv gunzip gzexe gzip hardlink hash head help history hostid hostname i386 iconv iconvconfig id if in infocmp infotocap install installkernel invoke-rc.d ionice ipcmk ipcrm ipcs ischroot isosize jobs join kill killall5 ld.so ldattach ldconfig ldd let link linux32 linux64 ln local locale localedef logger login logname logout losetup ls lsblk lscpu lsipc lslocks lslogins lsmem lsns mapfile mawk mcookie md5sum mkdir mkfifo mkfs mkhomedir_helper mknod mkswap mktemp more mount mountpoint mv namei nawk newgrp newusers nice nisdomainname nl nohup nologin nproc nsenter numfmt od pager pam-auth-update pam_getenv pam_namespace_helper pam_timestamp_check partx passwd paste pathchk perl perl5.40.1 pidof pinky pivot_root pldd policy-rc.d popd pr printenv printf prlimit ptx pushd pwck pwconv pwd pwhistory_helper pwunconv rbash read readarray readlink readonly readprofile realpath remove-shell rename.ul renice reset return rev rgrep rm rmdir rmt rmt-tar rtcwake run-parts runcon runuser savelog script scriptlive scriptreplay sdiff sed select seq service set setarch setpriv setsid setterm sg sh sha1sum sha224sum sha256sum sha384sum sha512sum shadowconfig shift shopt shred shuf sleep sort source split sqv start-stop-daemon stat stdbuf stty su sulogin sum suspend swaplabel swapoff swapon switch_root sync tabs tac tail tar tarcat taskset tee tempfile test then tic time timeout times toe touch tput tr trap true truncate tset tsort tty type typeset tzselect uclampset ulimit umask umount unalias uname uncompress unexpand uniq unix_chkpwd unix_update unlink unset unshare until update-alternatives update-passwd update-rc.d update-shells useradd userdel usermod users vdir vigr vipw wait wall wc wdctl whereis which which.debianutils while who whoami wipefs x86_64 xargs yes ypdomainname zcat zcmp zdiff zdump zegrep zfgrep zforce zgrep zic zless zmore znew zramctl \{ } pwd
+    6  pwd
+    7  cd 
+    8  cd 
+    9  cd /root
+   10  pwd
+   11  cd usr
+   12  cd /usr
+   13  cd /home
+   14  mkdir test1
+   15  ls
+   16  mkdir test2/test3
+   17  cd /home
+   18  mkdir test2/test3
+   19  mkdir -p test2/test3
+   20  ls test2
+   21  ls
+   22  touch test1/index.php
+   23  ls test1
+   24  cd /home/test1 && ls
+   25  cp index.php copy.php
+   26  ls
+   27  cp -r test1 test4
+   28  ls
+   29  cd /home
+   30  cp -r test1 test4
+   31  ls
+   32  mv test2/test3 test3
+   33  ls
+   34  mv test4 test1_copy
+   35  ls
+   36  ls test1
+   37  rm test1/copy.php
+   38  ls test1
+   39  rm -r test3
+   40  ls
+   41  rm test1_copy/*.php
+   42  ls
+   43  ls test_copy
+   44  apt update -y && apt install -y vim
+   45  cd /home
+   46  ls
+   47  j
+   48  i
+   49  vi README.md
+   50  git status
+   51  ls
+   52  pwd
+   53  cd server_lesson
+   54  cd ./server_lesson
+   55  ls
+   56  cd /root
+   57  ls
+   58  cd server_lesson
+   59  ls
+   60  cd ../
+   61  cat README.md
+   62  pwd
+   63  vi
+   64  cat README.md
+   65  ls
+   66  mv README.md server_lesson
+   67  ls
+   68  cd server_lesson
+   69  ls
+   70  mkdir linux_practice2
+   71  ls
+   72  cd linux_practice2
+   73  ls
+   74  ls
+   75  pwd
+   76  mkdir documents
+   77  cd documents
+   78  ls
+   79  touch gizumo_{01..50}.md
+   80  ls
+   81  pwd
+   82  cd ../
+   83  mkdir trash
+   84  cd trash
+   85  mv documents/gizum_{20..40}.md trash/
+   86  cd ../
+   87  ls
+   88  mv documents/gizumo_{20..40}.md trash/
+   89  ls
+   90  cd trash
+   91  ls
+   92  cd ../
+   93  touch .gitignore
+   94  ls
+   95  ls
+   96  ls -a
+   97  pwd
+   98  history 300 > exec_command.log
+   99  ls
+  100  cd ../
+  101  pwd
+  102* ls\
+  103  git status
+  104  git init
+  105  git status
+  106  cat .gitignore
+  107  exit
+  108  pwd
+  109  ls
+  110  exit
+  111  pwd
+  112  ls
+  113  cd root
+  114  ls
+  115  rm -r server_lesson
+  116  ls
+  117  history 300
+  118  ls
+  119  pwd
+  120  mkdir server_lesson && cd server_lesson
+  121  apt update -y && apt install -y git
+  122  git version
+  123  git init
+  124  touch first.txt
+  125  ls
+  126  cd first.txt
+  127  ls
+  128  cd ../
+  129  ls
+  130  pwd
+  131  cd server_lesson
+  132  pwd
+  133  mkdir linux_practice1
+  134  pwd
+  135  ls
+  136  cd linux_practice1
+  137  pwd
+  138  mkdir public
+  139  ls
+  140  cd public
+  141  cd index.php
+  142  touch index.php
+  143  ls
+  144  cp index.php index_bk.php
+  145  ls
+  146  cd ../
+  147  cp public tmp
+  148  cp -r public tmp
+  149  ls
+  150  rm index_bk.php
+  151  cd public
+  152  ls
+  153  rm index_bk.php
+  154  ls
+  155  cd ../
+  156  cd ../
+  157  pwd
+  158  touch README.md
+  159  vi README.md
+  160  ls
+  161  mkdir linux_practice2
+  162  ls
+  163  cd linux_practice2
+  164  mkdir documents
+  165  ls
+  166  cd documents
+  167  ls
+  168  pwd
+  169  touch gizum_{01..50}.md
+  170  ls
+  171  ls
+  172  cd ../
+  173  ls
+  174  touch trash
+  175  ls
+  176  cd trash
+  177  ls
+  178  pwd
+  179  cd trash
+  180  ls
+  181  cd documents
+  182  cd ../
+  183  cd trash
+  184  rm trash
+  185  ls
+  186  mkdir trash
+  187  ls
+  188  mv documents/ gizum_{20..40}.md trash/
+  189  ls
+  190  pwd
+  191  ls
+  192  cd ../
+  193  cd linux_practice2
+  194  ls
+  195  cd trash
+  196  cd ../
+  197  ls -1
+  198  cd documents
+  199  mkdir documents
+  200  ls
+  201  cd documents
+  202  touch gizumo_{01..50}.md
+  203  ls
+  204  cd ../
+  205  ls
+  206  cd trash
+  207  ls
+  208  cd documents
+  209  ls
+  210  cd ../
+  211  cd ../
+  212  rm -r trash/documents
+  213  ls
+  214  cd trash
+  215  ls
+  216  cd ../
+  217  ls
+  218  mv documents/ gizumo_{20..40}.md trash/
+  219  ls
+  220  cd trash
+  221  ls
+  222  cd documents
+  223  ls
+  224  cd ../
+  225  cd ../
+  226  mv trash/documents
+  227  cd /root/server_lesson/linux_practice2
+  228  mv trash/documents .
+  229  ls
+  230  mkdir -p trash
+  231  ls
+  232  cd documents
+  233  ls
+  234  mv documents/gizumo_{20..40}.md trash/
+  235  ls
+  236  cd ../
+  237  ld
+  238  mv documents/gizumo_{20..40}.md trash/
+  239  ls
+  240  cd trash
+  241  ls
+  242  cd ../
+  243  cd ../
+  244  ls
+  245  cd ../
+  246  pwd
+  247  ls
+  248  cd server_lesson
+  249  ls
+  250  cd first.txt
+  251  pwd
+  252  ls
+  253  cd linux_practice2 
+  254  cd ../
+  255  ls
+  256  ls -a
+  257  git stutus
+  258  git status
+  259  ls
+  260  rm first.txt
+  261  ls
+  262  cd linux_practice2
+  263  touch .gitignore
+  264  ls
+  265  ls -a
+  266  vi .gitignore
+  267  ls
+  268  ls -a
+  269  cd .gitinore
+  270  pwd
+  271  history 300 > exec_command.log
