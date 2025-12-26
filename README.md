@@ -1,3 +1,21 @@
+- -a
+- -l
+- ls
+- pwd
+- cd
+- ~
+- /
+- -
+- ../
+- mkdir
+- touch
+- &&
+- cp
+- mv
+- rm
+- >
+- >>
+- i
 - j
 - k
 - h
@@ -5,3 +23,4 @@
 - :w
 - :wq
 - cat
+- vi
